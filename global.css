@@ -8,3 +8,30 @@ body {
   margin: auto;
   padding: 1em;
 }
+
+header {
+  display: flex;
+  gap: 1em;
+  align-items: baseline;
+}
+
+.time-filter {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  margin-left: auto;
+}
+
+.time-filter__value {
+  min-width: 6em;
+  text-align: center;
+}
+
+.time-filter__value time,
+.time-filter__value em {
+  display: block;
+}
+
+.time-filter__value em {
+  color: #777;
+}
